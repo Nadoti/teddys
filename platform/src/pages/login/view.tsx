@@ -5,7 +5,6 @@ import { Logo } from "../../components/logo"
 import { Input } from "../../components/forms/input"
 import { Checkbox } from "../../components/forms/checkbox"
 import { useLoginModel } from "./model"
-import RemoteA from "remoteA/App"
 
 
 export function LoginView({
@@ -22,7 +21,6 @@ export function LoginView({
     <div className={styles.container}>
       <div className={styles["image-bg"]}></div>
       <div className={styles.content}>
-        <RemoteA />
         <div className="logo">
           <Logo size="150" color="#6366F1"/>
         </div>

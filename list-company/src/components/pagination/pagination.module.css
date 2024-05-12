@@ -1,0 +1,23 @@
+
+.button {
+  font-size: var(--text-16);
+  background: var(--gray-800);
+  margin-left: 5px;
+  padding: var(--spacing-12);
+  border-radius: 6px;
+  color: var(--gray-300);
+  font-weight: bold;
+  border: 1px solid var(--gray-600);
+  transition: all .3s;
+}
+
+.button:hover {
+  background: var(--gray-600);
+  color: var(--black);
+}
+
+.active {
+  background: var(--blue-500);
+  color: var(--gray-100);
+  font-weight: bold;
+}

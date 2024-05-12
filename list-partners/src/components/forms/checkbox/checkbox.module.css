@@ -1,0 +1,39 @@
+
+
+.label {
+  width: max-content;
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-06);
+  font-size: var(--text-16);
+  color: var(--gray-300);
+}
+
+.input {
+  display: block;
+  width: 18px;
+  height: 18px;
+  border: none;
+}
+
+.checkbox {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+}
+
+.input:checked + .checkbox {
+  background-color: var(--blue-500);
+}
+
+.input::before {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-right: var(--spacing-06); 
+}
+
+.input:checked::before {
+  background-color: var(--blue-500);
+}

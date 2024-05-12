@@ -1,13 +1,13 @@
 import { BrowserRouter } from "react-router-dom"
-import { AllPartners } from "./page/all-partners"
-import { Toaster } from "sonner"
-
+import { AllCompany } from "./page/all-company"
+import {Toaster} from "sonner"
 
 function App() {
+
   return (
     <>
       <BrowserRouter>
-        <AllPartners />
+        <AllCompany />
       </BrowserRouter>
       <Toaster />
     </>

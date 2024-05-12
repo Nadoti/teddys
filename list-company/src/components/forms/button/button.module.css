@@ -1,0 +1,24 @@
+
+.btn {
+  padding: var(--spacing-10) var(--spacing-48);
+  border: none;
+  border-radius: 8px;
+  background: var(--blue-500);
+  font-size: var(--text-20);
+  color: var(--white);
+  font-weight: bold;
+  font-family: monospace;
+  transition: all .3s;
+}
+.btn:hover {
+  background: var(--blue-700);
+}
+
+.danger {
+  background-color: var(--error);
+}
+
+.danger:hover {
+  background: var(--error);
+  filter: brightness(.8);
+}
