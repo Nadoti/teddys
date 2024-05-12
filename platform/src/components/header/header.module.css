@@ -1,0 +1,13 @@
+
+
+.container {
+  width: 100%;
+  padding: var(--spacing-24);
+  border-bottom: 1px solid var(--gray-800);
+  margin-bottom: var(--spacing-24);
+}
+
+.title {
+  font-size: var(--text-20);
+  color: var(--gray-300);
+}
